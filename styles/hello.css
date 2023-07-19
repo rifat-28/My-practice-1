@@ -1,0 +1,69 @@
+* {
+    font-family: 'Itim', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.btn-primary {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.arr {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-sub-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.bg {
+    background-color: azure;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
